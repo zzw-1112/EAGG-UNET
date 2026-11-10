@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+
+# virtual environments
+.venv/
+venv/
+env/
+
+# checkpoints and training outputs
+saved/
+confuse_matrix/
+logs/
+*.pth
+*.pth.tar
+*.log
+
+# datasets (download separately)
+newdata/
+data/
+*.tif
+*.zip
+
+# editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

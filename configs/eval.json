@@ -1,0 +1,18 @@
+{
+    "model_name": "EAGG",
+    "num_classes": 20,
+    "in_channels": 5,
+
+    "sigma_spatial": 0.3,
+    "sigma_feature": 0.8,
+    "use_spatial": true,
+    "use_feature": true,
+    "gcn_spatial_size": 32,
+
+    "img_txt": "newdata/test20.txt",
+    "save_model": {
+        "save_path": "saved/models"
+    },
+    "result_dir": "confuse_matrix",
+    "device": "auto"
+}
